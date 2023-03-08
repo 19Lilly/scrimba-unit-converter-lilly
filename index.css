@@ -5,31 +5,32 @@
     /*background-color: #020202; /*#010101*/
 }
 
-body {
-    width: 100vw;
+body {   
     display: flex;
     justify-content: center;
-    margin: 1.5625em auto;
+    margin: 25px auto;
     background-color: #020202;
 }
 
 #container {
-    width: 34.375em;
-    height: 45.5625em;
+    width: 550px;
+    height: 729px;
     background-color:#1F2937;
-    border: 0.1875em solid white;
-    border-radius: 0.625em;
+    border: 3px solid white;
+    border-radius: 10px;
     overflow: hidden;
 }
 
 #main{
-    width: 34.375em;
-    height: 17.8125em;
+    width: 550px;
+    height: 285px;
     background-color: #047857;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
 }
 
 h1{
@@ -37,34 +38,33 @@ h1{
 }
 
 input {
-    width: 7.3125em;
-    height: 5.1875em;
-    border: 0.125em solid #A7F3D0;
-    border-radius: 0.3125em;
+    width: 117px;
+    height: 83px;
+    border: 2px solid #A7F3D0;
+    border-radius: 5px;
     background-color: #047857;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    font-size: 3.625em;
-    line-height: 1.5em;
+    font-size: 58px;
+    line-height: 24px;
     text-align: center;
     color: #FFFFFF;
 }
 
 
 button {
-    width: 7.3125em;
-    height: 2.625em;
-    margin-top: 1.5625em;
-    border-radius: 0.3125em;
+    width: 117px;
+    height: 42px;
     background: #FFFFFF;
-    box-shadow: 0px 0.0625em 0.125em rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
     border: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 16px;
+    line-height: 24px;
     color: #3D3D3D;
 }
 
@@ -73,13 +73,12 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.25em;   
-    padding-top: 2.5em;
+    gap: 20px; 
 }
 
 rectangle {
-    width: 31.25em;
-    height: 6.785625em;
+    width: 500px;
+    height: 108.57px;
     background-color: #273549;
     display: flex;
     flex-direction: column;
@@ -87,20 +86,20 @@ rectangle {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.875em;
-    line-height: 1.25em;
+    font-size: 14px;
+    line-height: 20px;
     color: #FFFFFF;
-    border-radius: 0.3125em;
+    border-radius: 5px;
 }
 
 h3{
-    width: 21.625em;
-    height: 1.5625em;
+    width: 346px;
+    height: 25px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 1.25em;
-    line-height: 1.25em;
+    font-size: 20px;
+    line-height: 20px;
     color: #A7F3D0;
     text-align: center;
 }
