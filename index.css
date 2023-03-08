@@ -6,7 +6,7 @@
 }
 
 body {  
-    width: 100%; 
+   min-width: 600px;
     display: flex;
     justify-content: center;
     margin: 25px auto;
@@ -74,7 +74,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px; 
+    gap: 25px; 
 }
 
 rectangle {
