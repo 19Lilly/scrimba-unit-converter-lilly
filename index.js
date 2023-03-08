@@ -7,15 +7,12 @@
 const convertBtn = document.getElementById("convert-btn")
 
 
-let length = document.getElementById("length-result")
-let volume = document.getElementById("volume-result")
-let mass = document.getElementById("mass-result")
+let length = document.getElementById("length")
+let volume = document.getElementById("volume")
+let mass = document.getElementById("mass")
 
 convertBtn.addEventListener("click", function convert(){
     const userInput = document.getElementById("input-value").value
-    console.log("clicked")
-    console.log(userInput)
-    
     const meterFeet = 3.281
     const literGallon = 0.264
     const kilogramPound = 2.204
@@ -34,11 +31,3 @@ convertBtn.addEventListener("click", function convert(){
     mass.innerHTML = `${userInput} kilos = ${pounds} pounds | ${userInput} pounds = ${kilograms} kilos`
 })
 
-// function convert(inputValue) {
-//     if 
-//  iputValue * const1 | iputValue / const1   
-// }
-
-// 0 meters = 0 feet | 0 feet = 0 meters
-// 0 liters = 0 gallons | 0 gallons = 0 liters
-// 0 kilos = 0 pounds | 0 pounds = 0 kilos
