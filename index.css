@@ -5,7 +5,8 @@
     /*background-color: #020202; /*#010101*/
 }
 
-body {   
+body {  
+    width: 100%; 
     display: flex;
     justify-content: center;
     margin: 25px auto;
@@ -22,7 +23,7 @@ body {
 }
 
 #main{
-    width: 550px;
+    width: 544px;
     height: 285px;
     background-color: #047857;
     display: flex;
